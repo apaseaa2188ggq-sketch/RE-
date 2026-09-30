@@ -19,14 +19,6 @@ CYAN = '\x1b[1;36m'
 WHITE = '\x1b[1;37m'
 RESET = '\x1b[0m'
 
-# ═══════════════════════════════════════════════════
-# 🔐 ALLOWED IDS
-# ═══════════════════════════════════════════════════
-ALLOWED_IDS = [
-    "971403083",
-    "6319093542",
-]
-
 
 def clear_screen():
     os.system('clear' if os.name == 'posix' else 'cls')
