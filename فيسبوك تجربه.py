@@ -1,4 +1,4 @@
-#@AA0CA
+#Zeus
 import subprocess
 import sys
 def _():
